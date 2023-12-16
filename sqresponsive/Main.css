@@ -1,0 +1,16 @@
+
+.square{
+    width: 16%;
+    background-color: blueviolet;
+    border: solid 1px black;
+    float: left;
+}
+
+@media screen and (max-width: 390px) {
+    .square{
+        background-color: blueviolet;
+        border: solid 1px black;
+        float: left;
+        width: 25%;
+    }
+}

@@ -1,0 +1,85 @@
+.sq{
+    height: 40px;
+    width: 120px;
+}
+
+.ered{
+    background-color: crimson;
+    position: relative;
+}
+.eyellow{
+    background-color: yellow;
+    position: relative;
+}
+.sq1{
+    height: 100px;
+    width: 40px;
+    display:flex
+}
+.belgium{
+    margin: 10px 0px -150px;
+    
+}
+.bblack{
+    background-color: black;
+    position: relative;
+}
+.byellow{
+    background-color: yellow;
+    position: relative;
+}
+
+.bred{
+    background-color: crimson;
+    position: relative;
+}
+.rred{
+    top: -200px;
+    left: 80px;
+}
+.myellow{
+    top: -100px;
+    left: 40px;
+}
+.ceredin{
+    background-color: crimson;
+    position: relative;
+    z-index: 3;
+}
+.ceyellow{
+    background-color: yellow;
+    position: relative;
+    z-index: 2;
+}
+.ceredout{
+    background-color: crimson;
+    position: relative;
+    z-index: 1;
+   
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+.circle2{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.circle3{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+}
+.posredin{
+    left:40px;
+}
+.posyellow{
+    top: -60px;
+    left: 20px;
+}
+.posredout{
+    top: -160px;
+    
+}

@@ -1,0 +1,27 @@
+
+.form-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 625px;
+    padding: 10px;
+    background-color: #777;
+    border-radius: 20px;
+
+}
+.opt{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+.opty{
+    display: flex;
+
+}
+.optn{
+    display: flex;
+}
+label{
+    margin: 5px;
+}

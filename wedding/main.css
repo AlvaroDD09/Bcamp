@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    background-color: bisque;
+    flex-direction: column;
+    align-items: center;
+    width: 1050px;
+    margin-left: 430px;
+    border-radius: 30px;
+    height: 850px;
+}
+img{
+    border-radius: 100px;
+    width: 600px;
+}
+.welcome{
+    background-image: url(img/imperio-romano.png);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h1 {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    width: 460px;
+    margin-left: -900px;
+    font-size: 50px;
+ }
+h2{
+    text-align: center;
+}
+p{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(31, 192, 31);
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}

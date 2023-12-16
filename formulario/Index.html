@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Main.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form-data">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name">
+            <label for="surname">Primer Apellido:</label>
+            <input type="text" id="surname" name="surname">
+            <label for="surname2">Segundo Apellido:</label>
+            <input type="text" id="surname2" name="surname2">
+            <label for="phone">Telefono:</label>
+            <input type="tel" id="phone" name="telefono">
+            <label for="e-mail">Introduzca su correo electronico</label>
+            <input type="email" id="e-mail" name="correo">
+            <div class="opt">
+                <p>¿Eres mayor de edad?</p>
+                <div class="opty">
+                    <label for="age">Si</label>
+                    <input type="radio" id="age" name="age" value="Si">
+                </div>
+                <div class="opty">
+                    <label class="optn" for="age">No</label>
+                    <input type="radio" id="age" name="age" value="No">
+                </div>
+
+            </div>
+            
+        </form>
+    </div>
+</body>
+<script>
+    function checkForm() {
+
+
+
+        const nameofClient = document.querySelector("#nombre");
+        const lastName1 = document.querySelector("#lastName1");
+        const lastName2 = document.querySelector("#lastName2");
+        const telefono = document.querySelector("#telefono");
+        const correo = document.querySelector("#correo");
+        const age = document.querySelector("#age");
+
+
+        console.log(nombre, lastName1, lastName2, telefono, correo)
+
+        if (nameofClient.value != "" && lastName1.value != "" && lastName2.value != "" && telefono.value != "" && correo.value != "") {
+            alert("Es correcto")
+        }
+        else {
+            alert("Error")
+        }
+    }
+
+
+</script>
+</html>
