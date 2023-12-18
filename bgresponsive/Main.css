@@ -1,0 +1,17 @@
+.container{
+    background-color: blueviolet;
+    height: 1080px;
+}
+
+@media screen and (max-width:500px) {
+    .container{
+        background-color: aquamarine;
+        width: 400px;
+    }
+}
+@media screen and (max-width:600px) {
+    .container{
+        background-color: olive;
+        width: 500px;
+    }
+}

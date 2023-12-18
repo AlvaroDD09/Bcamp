@@ -1,0 +1,303 @@
+.container{
+    background-color: whitesmoke;
+    margin: -8px;
+    font-family: 'Passion One';
+}
+/*Encabezado fondo negro*/
+header{
+    display: flex;
+    background-color: #010101;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+.infheader{
+    display: flex;
+    justify-content: flex-end;
+ 
+}
+.listheader{
+    display: flex;
+    margin-right:30px;
+}
+.listspacing{
+    margin-left: 20px;
+
+}
+.textlink {
+    color: whitesmoke;
+    
+}
+a{
+    text-decoration: none;
+    color: #4B4B4B;
+}
+/*Menú estatico*/
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.bl{
+    background-color: #010101;
+}
+.wh{
+    background-color: #FFFFFF;
+}
+
+/* Menú de interacción fondo blanco*/
+.logo{
+    float: left;
+}
+.imglogo {
+    margin-left: 45px;
+}
+.containermenu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navmenu{
+    display: flex;
+    margin: 25px 30px;
+}
+ul{
+    list-style-type: none;
+}
+/*Banner que contiene texto*/
+.imgbanner{
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.58) 0%,rgba(0,0,0,0.31) 100%),url(img/Ensalada.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+
+.textbanner{
+    display: flex;
+    justify-content: center;
+    padding-top: 275px;
+    padding-right: 100px;
+    font-size: 34px;
+    color: #FFFFFF;
+}
+.origenbanner{
+    display: flex;
+    background-image: url(img/bannerorigen.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    padding-bottom: 15px;
+}
+.textobanner{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 700px;
+    width: 500px;
+    font-weight: 500;
+    text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bannerpgraph{
+    font-size: 30px;
+    margin: 75px -230px;
+}
+.bannerpgraph2{
+    font-size: 75px;
+    margin-top: -50px;
+}
+.bannerpgraph3{
+    font-size: 30px;
+    margin-top: -50px
+}
+.bannerpgraph4{
+    font-size: 30px;
+}
+.c-meet-us{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.c-menu{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 280px;
+    width: 270px;
+    align-items: center;
+}
+p.ctmenu {
+    font-size: 15px;
+    text-align: center;
+}
+/*Transicion de Boton menu*/
+button.bmfr {
+    border-radius: 20px;
+    background-color: #BF0811;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding: 16px;
+    width: 220px;
+    transition: all 1s;
+    cursor: pointer;
+}
+  
+button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 10px;
+    right: -20px;
+    transition: 1s;
+}
+  
+button:hover{
+    width: 200px;
+
+}
+  
+button:hover:after {
+    opacity: 1;
+    right: 10px;
+    top: 10px;
+}
+  
+.bmenu:hover {
+    background-color: #BF0811; 
+}
+
+
+/**/
+.c-fabric{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;
+    width: 270px;
+    align-items: center;
+}
+.ctfabric{
+    font-size: 15px;
+    text-align: center;
+}
+.c-restaurants{
+    display: flex;
+    flex-direction: column;
+    margin-left: 291px;
+    align-items: center;
+    width: 202px;
+}
+.ctrestaurants{
+    font-size: 15px;
+    text-align: center;
+}
+.meet-img{
+    display: flex;
+    border-radius: 25px;
+
+}
+.c-meet-text{
+    display: flex;
+}
+
+
+
+/*Footer*/
+
+.location{
+    display: flex;
+    background-image: url(img/Restaurantepp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+}
+.imglocation{
+    display: flex;
+}
+
+/*Button animation location*/
+button.blocation {
+    border-radius: 20px;
+    background-color: #333333;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding: 16px;
+    width: 220px;
+    transition: all 1s;
+    cursor: pointer;
+}
+  
+button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 10px;
+    right: -20px;
+    transition: 1s;
+}
+  
+button:hover{
+    width: 200px;
+
+}
+  
+button:hover:after {
+    opacity: 1;
+    right: 10px;
+    top: 10px;
+}
+  
+.blocation:hover {
+    background-color: #dbdbdb;
+    color: #333333; 
+}
+
+/**/
+.footer-info{
+    display: flex;
+    background-color: #222222;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.flinks{
+    color: white;
+}
+.fcompany{
+    color: #09788A;
+}
+.fResponsability{
+    color: #09788A;
+}
+.finformation{
+    color: #09788A;
+}
+.footer-black{
+    display: flex;
+    background-color: #171717;
+    color: #FFFFFF;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
